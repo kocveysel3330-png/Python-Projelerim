@@ -1,0 +1,5 @@
+sayi1=450                                       
+sayi2=799.9                                     
+sayi3=386.95                                    
+toplam=sayi1+sayi2+sayi3                        
+print(toplam)
