@@ -1,0 +1,16 @@
+
+website = "http://www.yapayrehbertakip.com"
+course = "sifirdan ileri seviye python kursunu kacirma (sade anlatim ile)"
+
+# 1. Soru: course değişkenindeki toplam karakter sayısı
+print(len(course))  # Çıktı: 63
+
+# 2. Soru: website içinden "www" karakterlerini almak
+print(website[7:10])  # Çıktı: www
+
+# 3. Soru: website içinden "com" karakterlerini almak
+print(website[-3:])  # Çıktı: com
+
+# 4. Soru: Değişkenleri f-string ile ekrana yazdırmak
+name, surname, age, job = "Umut", "Altun", 32, "Yazilimci"
+print(f"Benim adim {name} {surname}, yasim {age} ve meslegim {job}")
