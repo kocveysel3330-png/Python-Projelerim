@@ -1,0 +1,51 @@
+# 1-"Portakal","Elma","Armut","Kiraz" elemanlarina sahip bir liste olusturunuz
+mesaj = ["Portakal", "Elma", "Armut", "Kiraz"]
+print(mesaj)
+
+# 2-olusturdugun liste kac elemanlidir
+print(len(mesaj))
+
+# 3-listenin ilk ve son elemani nedir
+print(mesaj[0])
+print(mesaj[3])
+
+# 4-"Elma" degerini "Sogan" ile degistirin
+mesaj[1] = "Sogan"
+print(mesaj)
+
+# 5-Portakal listenin bir elemanimidir
+sonuc = "Portakal" in mesaj 
+print(sonuc)
+
+# 6-listenin -2 indexteki degeri nedir
+print(mesaj[-2])
+
+# 7-listenin ilk 3 elemanini alin
+print(mesaj[:3])
+
+# 8-listenin son iki elemani yerine "cilek","muz" degerlerini ekleyiniz
+mesaj[2] = "cilek"
+mesaj[3] = "muz"
+print(mesaj)
+
+# 9-Listenin uzerine "Karpuz" ve "Biber" degerlerini ekleyin
+print(mesaj[0:4] + ["Biber", "Karpuz"])
+
+# 10-Listenin son elemanini silin
+del mesaj[-1]  
+print(mesaj)
+
+# 11-Listenin elemanlarini tersten yazdiriniz
+print(mesaj[::-1])
+
+# 12-Asagida verilen bilgileri bir liste icinde saklayiniz
+# hesapA=Umut Altun, ankara,1.923.232. t1
+# hesapB=Sude GUL,   istanbul, 94.322. t1
+
+hesapA = ["umut", "altun", "ankara", "1.923,232. t1"]
+hesapB = ["Sude", "GUL", "istanbul", "94.322. t1"]
+print(hesapA)
+print(hesapB)
+
+print(hesapA[0])
+print(hesapB[3])
